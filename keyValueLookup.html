@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Key-Value Lookup</title>
+  <link rel="stylesheet" href="keyValueLookup.css">
+</head>
+<body>
+  <h2>Key-Value Lookup</h2>
+  <label for="keyInput">Key:</label>
+  <input type="text" id="keyInput">
+  <label for="valueInput">Value:</label>
+  <input type="text" id="valueInput">
+  <button onclick="storeKeyValue()">Store</button>
+  <br><br>
+  <button onclick="printTable()">Print Table</button>
+  <button onclick="clearTable()">Clear Table</button>
+  <br><br>
+  <table id="keyValueTable">
+    <thead>
+      <tr>
+        <th>Key</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+  </table>
+
+  <script src="keyValueLookup.js"></script>
+</body>
+</html>
 
